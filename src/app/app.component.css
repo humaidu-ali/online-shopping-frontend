@@ -1,0 +1,29 @@
+.carousel-banner{
+    background-color: lightblue;
+    margin-top: 10px;
+}
+
+.navbar .navbar-brand {
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ .navbar .navbar-collapse .navbar-middle{
+    margin-left: 200px;
+}
+
+
+/* Mobile phone responsiveness */
+@media only screen and (max-width: 600px) {
+
+    .navbar .navbar-collapse .navbar-middle{
+        margin-left: 130px;
+    }
+
+    .navbar .navbar-collapse .navbar-right{
+        margin-left: 130px;
+    }
+    
+
+}

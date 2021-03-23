@@ -1,0 +1,147 @@
+.container-table {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  /* color: black; */
+}
+
+.carousel-caption h1 {
+  color: black;
+  opacity: 0.8;
+  position: relative;
+  bottom: 20px;
+  /* -webkit-text-stroke: 1px pink; */
+  /* text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+ -1px 1px 0 #000, 1px 1px 0 #000;  */
+}
+
+.carousel-caption p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #9c7b7e;
+  font-family: "Courier New", Courier, monospace;
+  background-color: white;
+  opacity: 0.7;
+}
+.carousel-caption .shop-button a {
+  color: rgb(15, 15, 15);
+  border: 2px solid rgb(15, 15, 15);
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  position: relative;
+  top: 30px;
+  font-size: 17px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.carousel-caption .shop-button #a {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  padding: 10px;
+  border: 2px solid rgb(15, 15, 15);
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+.carousel-caption .shop-button #a:hover {
+  background-color: white;
+  color: rgb(15, 15, 15);
+  border: 2px solid rgb(15, 15, 15);
+  font-weight: bold;
+}
+
+.carousel-caption .shop-button #b {
+  opacity: 0.6;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+
+.carousel-caption .shop-button #b:hover {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  font-weight: bold;
+}
+
+/* Mobile phone responsiveness */
+@media only screen and (max-width: 600px) {
+  .container-table {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    /* color: black; */
+  }
+
+  .carousel-caption h1 {
+    color: black;
+    opacity: 0.8;
+    position: relative;
+    bottom: 10px;
+    font-size: 25px;
+    /* -webkit-text-stroke: 1px pink;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000; */
+  }
+
+  .carousel-caption p {
+    font-size: 16px;
+    /* font-weight: bold; */
+    color: #9c7b7e;
+    font-family: "Courier New", Courier, monospace;
+    background-color: white;
+    opacity: 0.7;
+  }
+  .carousel-caption .shop-button a {
+    color: rgb(15, 15, 15);
+    border: 2px solid rgb(15, 15, 15);
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    position: relative;
+    top: 6px;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .carousel-caption .shop-button #a {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding: 5px;
+    border: 2px solid rgb(15, 15, 15);
+    opacity: 0.6;
+  }
+
+  .carousel-caption .shop-button #a:hover {
+    background-color: white;
+    color: rgb(15, 15, 15);
+    border: 2px solid rgb(15, 15, 15);
+    font-weight: bold;
+  }
+
+  .carousel-caption .shop-button #b {
+    opacity: 0.6;
+    color: black;
+    background-color: white;
+  }
+
+  .carousel-caption .shop-button #b:hover {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    font-weight: bold;
+  }
+}
