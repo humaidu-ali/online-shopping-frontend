@@ -1,7 +1,4 @@
-<style>
-
-
-</style>
+<style></style>
 <div class="main">
   <!-- <div class="m-nav">
   <nav class="navbar navbar-expand-md navbar-light ">
@@ -38,46 +35,79 @@
   </nav>
   </div> -->
   <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a href="#" class="navbar-brand">BR<span style="color: #e03c39;">A</span>ND</a>
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
+    <a href="#" class="navbar-brand"
+      >BR<span style="color: #e03c39">A</span>ND</a
+    >
+    <button
+      type="button"
+      class="navbar-toggler"
+      data-toggle="collapse"
+      data-target="#navbarCollapse"
+    >
+      <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-        <div class="navbar-nav navbar-middle">
-            <a href="#" class="nav-item nav-link active">Home</a>
-            <a href="#" class="nav-item nav-link">Profile</a>
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Messages</a>
-                <div class="dropdown-menu">
-                    <a href="#" class="dropdown-item">Inbox</a>
-                    <a href="#" class="dropdown-item">Sent</a>
-                    <a href="#" class="dropdown-item">Drafts</a>
-                </div>
-            </div>
+    <div
+      class="collapse navbar-collapse justify-content-between"
+      id="navbarCollapse"
+    >
+      <div class="navbar-nav navbar-middle">
+        <a href="#" class="nav-item nav-link active">Home</a>
+        <a href="#" class="nav-item nav-link">Profile</a>
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+            >Messages</a
+          >
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Inbox</a>
+            <a href="#" class="dropdown-item">Sent</a>
+            <a href="#" class="dropdown-item">Drafts</a>
+          </div>
         </div>
-        <form class="form-inline">
-            <div class="input-group">                    
-                <input type="text" class="form-control" placeholder="Search">
-                <div class="input-group-append">
-                    <button type="button" class="btn btn-secondary"><i class="fa fa-search"></i></button>
-                </div>
-            </div>
-        </form>
-        <div class="navbar-nav navbar-right">
-            <a href="#" class="nav-item nav-link">Login</a>
+      </div>
+      <form class="form-inline">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search" />
+          <div class="input-group-append">
+            <button type="button" class="btn btn-secondary">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
         </div>
+      </form>
+      <div class="navbar-nav navbar-right">
+        <a href="#" class="nav-item nav-link"
+          ><i class="fas fa-user-alt" style="color: rgb(192, 59, 103);font-size: 18px;"></i
+        ></a>
+
+        <a href="#" class="nav-item nav-link">
+          <i class="fas fa-shopping-cart" style="color: rgb(192, 59, 103);font-size: 18px;"></i
+        ></a>
+
+        <!-- <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fas fa-user-alt"></i></a>
+              <div class="dropdown-menu">
+                  <a href="#" class="dropdown-item">Inbox</a>
+                  <a href="#" class="dropdown-item">Sent</a>
+                  <a href="#" class="dropdown-item">Drafts</a>
+              </div>
+          </div> -->
+      </div>
     </div>
-</nav>
+  </nav>
   <!-- End of navbar -->
 
   <!-- Carousel -->
   <div class="main-carousel">
-  <app-carousel></app-carousel>
+    <app-carousel></app-carousel>
   </div>
- 
+
   <!-- Shopping products -->
   <div class="shopping-item mt-5">
-   <app-shopping-items></app-shopping-items>
+    <app-shopping-items></app-shopping-items>
+  </div>
+
+  <div class="footer mt-5">
+  <app-footer></app-footer>
   </div>
 </div>

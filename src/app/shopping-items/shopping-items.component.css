@@ -166,24 +166,6 @@
 .product-card .rating li.disable {
   color: #dcdcdc;
 }
-/* @media only screen and (max-width: 1200px) {
-  .product-card .rating {
-    margin: 0;
-  }
-}
-@media only screen and (max-width: 990px) {
-  .product-card {
-    margin-bottom: 30px;
-  }
-  .product-card .rating {
-    margin: -22px 0 0;
-  }
-}
-@media only screen and (max-width: 359px) {
-  .product-card .rating {
-    margin: 0;
-  }
-} */
 
 @media only screen and (max-width: 600px) {
   .container .h3 {

@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ShoppingItemsComponent } from './shopping-items/shopping-items.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselComponent,
-    ShoppingItemsComponent
+    ShoppingItemsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
